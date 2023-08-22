@@ -15,9 +15,9 @@ function Home() {
   return (
     <div>
       <Header />
-      <video controls loop autoPlay muted  height={1000} width={1500} class='home_v'>
+      {/* <video controls loop autoPlay muted  height={1000} width={1500} class='home_v'>
             <source src={a1} type="video/mp4" />
-            </video>
+            </video> */}
       <Product />
       <div class="container text-center my_cont">
         <div class="row">
