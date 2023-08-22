@@ -1,0 +1,32 @@
+.link{
+    color: rgb(246, 244, 241);
+    font-weight: 500px;
+    font-family:'Arial, Helvetica, sans-serif';
+    font-style: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link:hover{
+    color: #060606;  
+}
+
+
+.mobile-link{
+    color: rgb(33, 31, 29);
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+    text-decoration: none;
+}
+.mobile-link:hover{
+    color: rgb(5, 60, 60);
+    
+   
+}
+
+/* .nav_title{
+    background-color: rgb(74, 157, 229);
+    border: none;
+    padding:5px
+} */
+

@@ -1,0 +1,29 @@
+.mycard{
+    margin-top: 10px;
+}
+
+.mylist{
+    margin-top: 100px;
+}
+
+.mylink{
+    text-decoration: none;
+}
+
+.mylink:hover{
+    text-decoration:dotted;
+    color: rgb(226, 43, 144);
+}
+.plane{
+    padding:8px;
+}
+
+.card-title{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.myzoom:hover{
+    transform: scale(1.1); 
+}
+

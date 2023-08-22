@@ -1,0 +1,21 @@
+.myservice{
+    margin-top: 100px;
+}
+.myimg{
+    width:500px;
+    height: 500px;
+    border-radius: 50%;
+    border:10px solid #fff;
+    box-shadow: 0px 6px 5px #000000;
+}
+.s_p{
+    color:rgb(4, 155, 155);
+    padding:10px;
+    text-align: justify;
+    font-size: 20px;
+    
+}
+.s_h{
+    color: rgb(3, 85, 85);
+    text-align: left;
+}
