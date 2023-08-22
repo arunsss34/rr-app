@@ -5,27 +5,27 @@ import b2 from './images/ship-6794508_1920.jpg'
 import b3 from './images/heavy-4070854_1920.jpg'
 import b4 from './images/transport-5062062_1920.jpg'
 import './css/service.css'
-// import ScrollReveal from 'scrollreveal'
+import ScrollReveal from 'scrollreveal'
 
 
 function Service() {
-  // ScrollReveal().reveal('.myimg', {
-  //   delay: 50,
-  //   duration: 2000,
-  //   opacity: 0,
-  //   distance: "100%",
-  //   origin: "left",
-  //   reset: true
-  // });
+  ScrollReveal().reveal('.myimg', {
+    delay: 50,
+    duration: 2000,
+    opacity: 0,
+    distance: "100%",
+    origin: "left",
+    reset: true
+  });
   
-  // ScrollReveal().reveal('.s_p', {
-  //   delay: 50,
-  //   duration: 2000,
-  //   opacity: 0,
-  //   distance: "100%",
-  //   origin: "top",
-  //   reset: true
-  // });
+  ScrollReveal().reveal('.s_p', {
+    delay: 50,
+    duration: 2000,
+    opacity: 0,
+    distance: "100%",
+    origin: "top",
+    reset: true
+  });
   
 
   return (<>
