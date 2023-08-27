@@ -18,33 +18,83 @@ const Email = () => {
   };
 
   return (<>
-          
-          <h3 className='heading'>Quote Form</h3>
-          <form ref={form} onSubmit={sendEmail} className='contact-form'>
-         
+    <form ref={form} onSubmit={sendEmail} className='contact-form'>
+    <h3 className='heading'>Quote Form</h3><br/>
+      <div class="container">
+        <div class="row">
+          <div class="col">
             <div class="mb-3 p-2">
               <label for="exampleInputEmail1" class="form-label">Name</label>
-              <input type="text" name='user_name' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required/>
+              <input type="text" name='user_name' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
             </div>
+          </div>
+          <div class="col">
             <div class="mb-3 p-2">
               <label for="exampleInputEmail1" class="form-label">Email</label>
-              <input type="text" name='user_email' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required/>
+              <input type="text" name='user_email' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
             </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
             <div class="mb-3 p-2">
-              <label for="exampleInputMobile" class="form-label">Mobile</label>
-              <input type="tel" name='user_mobile' class="form-control" id="exampleInputMobile" required/>
+              <label for="exampleInputEmail1" class="form-label">Service Type</label>
+              <input type="text" name='user_name' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
             </div>
+          </div>
+          <div class="col">
             <div class="mb-3 p-2">
-              <label for="exampleInputPassword1" class="form-label">Message</label>
-              <textarea type="text" name='user_msg' class="form-control" id="exampleInputPassword1" required></textarea>
+              <label for="exampleInputEmail1" class="form-label">Packaging</label>
+              <input type="text" name='user_email' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
             </div>
-            <div class="mb-3 form-check p-2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="mb-3 p-2">
+              <label for="exampleInputEmail1" class="form-label">Origin</label>
+              <input type="text" name='user_name' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
             </div>
-            <button type="submit" class="btn btn-primary p-2">Submit</button>
-          </form>
-        
+          </div>
+          <div class="col">
+            <div class="mb-3 p-2">
+              <label for="exampleInputEmail1" class="form-label">Destination</label>
+              <input type="text" name='user_email' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col">
+            <div class="mb-3 p-2">
+              <label for="exampleInputEmail1" class="form-label">Mobile</label>
+              <input type="text" name='user_name' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
+            </div>
+          </div>
+          <div class="col">
+            <div class="mb-3 p-2">
+              <label for="exampleInputEmail1" class="form-label">Shipment Date</label>
+              <input type="text" name='user_email' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="mb-5 p-2">
+              <label for="exampleInputPassword1" class="form-label">Remarks</label>
+              <textarea type="text" name='user_msg' placeholder='Enter full shipment details No of Pcs/Gross Weight (KG/LB)/ Chargable Weight (KG/LB) / Dimensions/Other Service if required / also mention incoterms' class="form-control p-3" id="exampleInputPassword1" required></textarea>
+            </div>
+          </div></div>
+          <div class="mb-3 form-check p-2">
+          <button type="submit" class="btn btn-primary p-1 submit_button">Submit</button>
+      </div>
+      </div>
+    </form>
+
   </>);
 };
 

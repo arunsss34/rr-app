@@ -2,13 +2,13 @@ import React from 'react'
 import Header from './Header'
 import Product from './Product'
 import Quote from './quote'
-import a1 from './images/v1.mp4'
 import aa2 from './images/supermarket-949912_1920.jpg'
 import aa1 from './images/supermarket-949912_1920.jpg'
 import aa3 from './images/laser-2819142_1920.jpg'
 import aa4 from './images/car-4716036_1920.jpg'
 // import Fade from 'react-reveal/Fade';
 import './css/default.css'
+import Footer from './Footer'
 function Home() {
 
 
@@ -39,7 +39,7 @@ function Home() {
       </div>
       <Quote />
       {/* <Service/> */}
-
+      <Footer />
     </div>
   )
 }

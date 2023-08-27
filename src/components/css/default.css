@@ -70,3 +70,21 @@ video::-webkit-media-controls {
     display: none;
   }
 
+.quote_p{
+    margin-top: 100px;
+}  
+
+.submit_button{
+    margin-left: 400px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 100px;
+    background-color: rgb(60, 60, 239);
+}
+
+.heading{
+    color: rgb(255, 5, 22);
+    font-weight: bold;
+}
+
