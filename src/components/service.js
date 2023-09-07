@@ -6,6 +6,7 @@ import b3 from './images/heavy-4070854_1920.jpg'
 import b4 from './images/transport-5062062_1920.jpg'
 import './css/service.css'
 import ScrollReveal from 'scrollreveal'
+import Footer from './Footer'
 
 
 function Service() {
@@ -88,7 +89,7 @@ We also provide DDP & DDU for ocean transport to help you be at ease throughout 
         </div>
       </div>
     </div>
-
+    <Footer />
   </>
   )
 }

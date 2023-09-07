@@ -6,18 +6,15 @@ import aa2 from './images/supermarket-949912_1920.jpg'
 import aa1 from './images/supermarket-949912_1920.jpg'
 import aa3 from './images/laser-2819142_1920.jpg'
 import aa4 from './images/car-4716036_1920.jpg'
-// import Fade from 'react-reveal/Fade';
+import Maps from './slide'
 import './css/default.css'
 import Footer from './Footer'
+import Slide from './slide'
 function Home() {
-
-
   return (
     <div>
       <Header />
-      {/* <video controls loop autoPlay muted  height={1000} width={1500} class='home_v'>
-            <source src={a1} type="video/mp4" />
-            </video> */}
+      <Slide />
       <Product />
       <div class="container text-center my_cont">
         <div class="row">
@@ -42,6 +39,6 @@ function Home() {
       <Footer />
     </div>
   )
-}
+          }
 
 export default Home

@@ -84,7 +84,32 @@ video::-webkit-media-controls {
 }
 
 .heading{
-    color: rgb(255, 5, 22);
+    color: rgb(222,165,194);
     font-weight: bold;
+    
+}
+
+.item{
+    height: 650px;
+}
+
+.itemhead{
+    color:rgb(56, 128, 150);
+    font-weight: bold;
+    padding: 50px;
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    
+}
+
+.itempara{
+    color:rgb(33, 42, 41);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    /* background-color: rgb(12, 110, 248); */
+    border-radius: 100px;
 }
 
